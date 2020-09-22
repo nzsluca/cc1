@@ -1,0 +1,156 @@
+#main {
+  overflow: auto;
+  height: 100%;
+  width: 61vw;
+  margin: 0 auto;
+  background-image: url(beer2.jpg);
+}
+
+#main #elso {
+  width: 41vw;
+  padding: 7vh;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.534);
+}
+
+#main #elso h4 {
+  color: #fffbfb;
+  text-align: center;
+}
+
+#main #elso p {
+  color: #fffbfb;
+  text-align: center;
+}
+
+#main #elso button {
+  background: none;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  -webkit-box-shadow: inset 0 0 0 2px red;
+          box-shadow: inset 0 0 0 2px red;
+  color: red;
+  font-size: inherit;
+  font-weight: 700;
+  position: relative;
+  vertical-align: middle;
+}
+
+#main #elso button::before, #main #elso button::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  content: '';
+  color: antiquewhite;
+  width: 100%;
+  height: 100%;
+}
+
+#main #elso button :hover {
+  background-color: rgba(255, 0, 0, 0.404);
+}
+
+#main #masodik {
+  width: 41vw;
+  padding: 7vh;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.534);
+}
+
+#main #masodik h4 {
+  color: #fffbfb;
+  text-align: center;
+}
+
+#main #masodik h5 {
+  color: #fffbfb;
+}
+
+#main #masodik button {
+  background: none;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  -webkit-box-shadow: inset 0 0 0 2px red;
+          box-shadow: inset 0 0 0 2px red;
+  color: red;
+  font-size: inherit;
+  font-weight: 700;
+  position: relative;
+  vertical-align: middle;
+}
+
+#main #masodik button::before, #main #masodik button::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  content: '';
+  color: antiquewhite;
+  width: 100%;
+  height: 100%;
+}
+
+#main #masodik button :hover {
+  background-color: rgba(255, 0, 0, 0.404);
+}
+
+#main #harmadik {
+  width: 41vw;
+  padding: 7vh;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.534);
+}
+
+#main #harmadik h4 {
+  color: #fffbfb;
+  text-align: center;
+}
+
+#main #negyedik {
+  width: 41vw;
+  padding: 7vh;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.534);
+}
+
+#main #negyedik h4 {
+  color: #fffbfb;
+  text-align: center;
+}
+
+#main #negyedik h5 {
+  color: #fffbfb;
+}
+
+#main #negyedik button {
+  background: none;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  -webkit-box-shadow: inset 0 0 0 2px red;
+          box-shadow: inset 0 0 0 2px red;
+  color: red;
+  font-size: inherit;
+  font-weight: 700;
+  position: relative;
+  vertical-align: middle;
+}
+
+#main #negyedik button::before, #main #negyedik button::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  content: '';
+  color: antiquewhite;
+  width: 100%;
+  height: 100%;
+}
+
+#main #negyedik button :hover {
+  background-color: rgba(255, 0, 0, 0.404);
+}
+/*# sourceMappingURL=main.css.map */

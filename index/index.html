@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/js.js" defer></script>
+    <title>Beers</title>
+</head>
+<body>
+   <div id="main">
+   <div id="elso">
+<h4>Group beers by brand</h4>
+
+<div id="buttons">
+   <button id="btn" class="center" onclick="getValue(),brandList()" value="Arany Fácán">aranyfacan  </button>
+   <button id="btn1" class="center" onclick="getValue1()" value="Dreher">dreher</button >
+   <button id="btn2" class="center" onclick="getValue2(),brandList()" value="aszok"> ászok</button>
+</div>
+
+<p id="dreher" style="margin: auto 0"></p>
+<p id="dreher1"></p>
+<p id="dreher2"></p>
+<p id="dreher3"></p>
+<p id="dreher4"></p>
+
+
+   </div>
+<div id="masodik">
+   <h4>Beer Type</h4>
+<h5>Enter a beer type</h5>
+<input type="text" value="" placehorder="Szűrt,Barna" id="typeinput"> 
+<button id="typ" class="btn-10" onclick="getBeerType()" > Search </button>
+</div>
+
+<div id="harmadik">
+<h4>Cheapest Brand</h4>
+<h2 id="cheap">
+</h2>
+</div>
+
+<div id="negyedik">
+   <h4>Beer I can drink</h4>
+      <h5>I am allergic to</h5>
+   <input type="text" value="" placehorder="maki" id="anyaginput"> 
+   <button id="Atyp" class="btn-10" onclick="getAnyagType()" > Search </button>
+
+</div>
+
+<div id="otodik">
+<h4> Water ingredient ratio</h4>
+
+</div>
+</div>
+</body>
+</html>
